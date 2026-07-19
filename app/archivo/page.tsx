@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ArchivoPage() {
   return (
     <div className="bg-white text-gray-900 min-h-screen py-16">
@@ -35,6 +37,18 @@ export default function ArchivoPage() {
               </thead>
               <tbody className="text-gray-700 font-sans divide-y divide-gray-200">
                 
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="p-4 font-serif font-medium text-brand-blue">Un Solo Apostolado</td>
+                  <td className="p-4">Edgar</td>
+                  <td className="p-4 hidden sm:table-cell">2026-07-18</td>
+                  <td className="p-4 hidden md:table-cell">
+                    <span className="px-2 py-1 text-xs font-semibold bg-green-50 text-brand-green rounded-md">Artículo</span>
+                  </td>
+                  <td className="p-4 text-right">
+                    <Link href="/bitacora/un-solo-apostolado" className="text-brand-blue hover:text-brand-red font-medium text-sm">Leer</Link>
+                  </td>
+                </tr>
+
                 <tr className="hover:bg-gray-50 transition-colors">
                   <td className="p-4 font-serif font-medium text-brand-blue">La crisis del pensamiento moderno</td>
                   <td className="p-4">Dra. Elena Ramos</td>
