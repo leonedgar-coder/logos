@@ -13,11 +13,11 @@ export default function GiscusComments() {
     script.async = true;
     script.crossOrigin = "anonymous";
     
-    // Configuración para el usuario (reemplazar con datos reales)
-    script.setAttribute("data-repo", "tu-usuario/tu-repo");
-    script.setAttribute("data-repo-id", "R_XXXXXXXXXX");
+    // Configuración para el usuario
+    script.setAttribute("data-repo", "leonedgar-coder/logos");
+    script.setAttribute("data-repo-id", "R_kgDOTc1Z8g");
     script.setAttribute("data-category", "General");
-    script.setAttribute("data-category-id", "DIC_XXXXXXXXX");
+    script.setAttribute("data-category-id", "DIC_kwDOTc1Z8s4DBfXH");
     script.setAttribute("data-mapping", "pathname");
     script.setAttribute("data-strict", "0");
     script.setAttribute("data-reactions-enabled", "1");
