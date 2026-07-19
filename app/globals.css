@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #ffffff; /* Fondo blanco solicitado */
+  --foreground: #0f172a; /* Texto oscuro */
+  
+  /* Colores del Logo */
+  --brand-blue: #0b2545;  /* Azul oscuro profundo del texto ΛΟΓΟΣ */
+  --brand-green: #22c55e; /* Verde del logo */
+  --brand-red: #ef4444;   /* Rojo del logo */
+  
+  --accent: var(--brand-blue);
+  --accent-hover: #133a6b;
+  --navy: var(--brand-blue);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-green: var(--brand-green);
+  --color-brand-red: var(--brand-red);
+  
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-navy: var(--navy);
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f172a; 
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
