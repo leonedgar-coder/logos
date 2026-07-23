@@ -19,7 +19,7 @@ export default function Home() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-serif font-bold text-brand-blue mb-6 tracking-tight">
-          Λόγος Think Tank
+          Λόγος
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 max-w-2xl font-serif leading-relaxed mb-12">
           Un espacio dedicado a la meditación, el análisis riguroso y el pensamiento profundo. 
