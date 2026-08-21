@@ -38,14 +38,14 @@ export default function ArchivoPage() {
               <tbody className="text-gray-700 font-sans divide-y divide-gray-200">
                 
                 <tr className="hover:bg-gray-50 transition-colors">
-                  <td className="p-4 font-serif font-medium text-brand-blue">Un Solo Apostolado</td>
-                  <td className="p-4">Edgar</td>
-                  <td className="p-4 hidden sm:table-cell">2026-07-18</td>
+                  <td className="p-4 font-serif font-medium text-brand-blue">El problema de la deificación material por sí y para sí</td>
+                  <td className="p-4">Ing. Edgar León Vargas</td>
+                  <td className="p-4 hidden sm:table-cell">2026-08-20</td>
                   <td className="p-4 hidden md:table-cell">
                     <span className="px-2 py-1 text-xs font-semibold bg-green-50 text-brand-green rounded-md">Artículo</span>
                   </td>
                   <td className="p-4 text-right">
-                    <Link href="/bitacora/un-solo-apostolado" className="text-brand-blue hover:text-brand-red font-medium text-sm">Leer</Link>
+                    <Link href="/bitacora/deificacion-material" className="text-brand-blue hover:text-brand-red font-medium text-sm">Leer</Link>
                   </td>
                 </tr>
 
@@ -73,17 +73,7 @@ export default function ArchivoPage() {
                   </td>
                 </tr>
 
-                <tr className="hover:bg-gray-50 transition-colors">
-                  <td className="p-4 font-serif font-medium text-brand-blue">Notas sobre la entropía</td>
-                  <td className="p-4">Dr. Luis Silva</td>
-                  <td className="p-4 hidden sm:table-cell">2026-04-10</td>
-                  <td className="p-4 hidden md:table-cell">
-                    <span className="px-2 py-1 text-xs font-semibold bg-green-50 text-brand-green rounded-md">Artículo</span>
-                  </td>
-                  <td className="p-4 text-right">
-                    <button className="text-brand-blue hover:text-brand-red font-medium text-sm">Leer</button>
-                  </td>
-                </tr>
+
 
               </tbody>
             </table>
