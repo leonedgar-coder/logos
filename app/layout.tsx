@@ -36,9 +36,17 @@ export const metadata: Metadata = {
     siteName: "Λόγος Think Tank",
     locale: "es_ES",
     type: "website",
+    images: [
+      {
+        url: "/logo.png",
+        alt: "Λόγος Think Tank Logo",
+      },
+    ],
   },
   icons: {
     icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
