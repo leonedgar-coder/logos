@@ -18,5 +18,9 @@
 - Todos los cambios hasta este punto han sido "pusheados" exitosamente a la rama principal (main) de GitHub.
 - Los archivos borradores (como `.xcf`) fueron dejados intactos localmente sin subir al repositorio.
 
+## 5. Ajustes Finales (Sesión Actual)
+- Se realizaron las últimas correcciones ortográficas y de redacción en el artículo de la deificación (acentos en "por sí y para sí", comas omitidas y espacios adicionales). 
+- El documento base quedó finalizado y sincronizado.
+
 ---
-*Este archivo sirve como punto de control para retomar el trabajo.*
+*Este archivo sirve como punto de control para retomar el trabajo. Todo está guardado y listo para continuar.*
